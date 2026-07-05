@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="#FF2979FF"/>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="33%"
+            android:insetRight="33%"
+            android:insetTop="33%"
+            android:insetBottom="33%"
+            android:drawable="@drawable/splash_icon"/>
+    </item>
+</layer-list>

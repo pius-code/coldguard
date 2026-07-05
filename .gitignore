@@ -1,0 +1,72 @@
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Android build outputs & caches
+android/.gradle/
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+android/.idea/
+
+# iOS build outputs & caches
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/.last_build_id
+ios/build/
+*.xcworkspace
+!default.xcworkspace
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Desktop (not needed for this Android app)
+linux/
+windows/
+macos/
+
+# Web (not needed for this Android app)
+web/
+
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.svn/
+.history
+migrate_working_dir/
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
